@@ -1,0 +1,38 @@
+.container {margin-top: 30px;
+
+}
+
+.alert alert-danger {
+    margin-top: 30px;
+}
+
+.card-body {
+    padding: 15px;
+    
+}
+
+.footer-custom {
+    height: 50px;
+
+}
+
+.ccards{
+    display: flex;
+    font-size: larger;
+    justify-content: space-between;
+    background-color: darkgray;
+    padding: .5rem;
+    border-radius: 5px;
+    gap: 10px;
+
+}
+
+.card-mss { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-custom {
+  
+}
+
