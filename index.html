@@ -26,19 +26,19 @@
           <form class="row g-3">
               <div class="col-md-4">
                 <label for="inputCard" class="form-label">Card #</label>
-                <input type="text" class="form-control" id="inputCard" placeholder="XXXX XXXX XXXX XXXX" maxlength="19" required>
+                <input type="text" class="form-control" id="inputCard" placeholder="XXXX XXXX XXXX XXXX" required pattern= "\d+">
               </div>
 
               <div class="col-md-4">
                 <label for="inputCVC" class="form-label">CVC</label>
-                <input type="text" class="form-control" id="inputCVC" placeholder="000" maxlength="3" required>
+                <input type="text" class="form-control" id="inputCVC" placeholder="000" required pattern= "\d+">
               </div>
 
               <div class="col-md-4">
                   <label for="inputAmount" class="form-label">Amount</label>
                   <div class="d-flex">
                     <p><b>$</b></p>
-                  <input type="number" class="form-control" id="inputAmount" placeholder="Amount" required>
+                  <input type="number" class="form-control" id="inputAmount" placeholder="Amount" required pattern= "\d+">
                 </div>
               </div>
               <div class="col-md-6">
@@ -108,13 +108,13 @@
                 </div>
                 
               </div>
-              <div class="card-footer bg-33,37,41 custom-border-light footer-custom text-end">
-                <button type="button" class="btn btn-secondary btn-sm">Cancel</button>
-                <button type="button" class="btn btn-primary btn-sm">Send</button>
-              </div>
+              
              
         </div>
-       
+        <div class="card-footer bg-33,37,41 custom-border-light footer-custom text-end">
+          <button type="reset" class="btn btn-secondary btn-sm">Cancel</button>
+          <button type="submit" class="btn btn-primary btn-sm">Send</button>
+        </div>
 
       </div>
 
